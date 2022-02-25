@@ -24,6 +24,10 @@ const HomeScreen = ({ navigation }) => {
         onPress={() => navigation.navigate("Counter")}
         title="Go to Counter Screen"
       />
+      <Button
+        onPress={() => navigation.navigate("Colors")}
+        title="Go to Color Screen"
+      />
 
       {/* Touchable Opacity is much more customizable for buttons, can use any element inside  */}
       {/* <TouchableOpacity
